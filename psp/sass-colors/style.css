@@ -1,6 +1,1260 @@
 @import url("https://fonts.googleapis.com/css?family=Open + Sans:400, 700");
+.brand--primary {
+  color: #a90100; }
+
+.brand--primary-l10 {
+  color: #b21a1a; }
+
+.brand--primary-d10 {
+  color: #980100; }
+
+.brand--primary-l20 {
+  color: #ba3433; }
+
+.brand--primary-d20 {
+  color: #870100; }
+
+.brand--primary-l30 {
+  color: #c34d4d; }
+
+.brand--primary-d30 {
+  color: #760100; }
+
+.brand--primary-l40 {
+  color: #cb6766; }
+
+.brand--primary-d40 {
+  color: #650100; }
+
+.brand--primary-l50 {
+  color: #d48080; }
+
+.brand--primary-d50 {
+  color: #550100; }
+
+.brand--primary-l60 {
+  color: #dd9999; }
+
+.brand--primary-d60 {
+  color: #440000; }
+
+.brand--primary-l70 {
+  color: #e5b3b3; }
+
+.brand--primary-d70 {
+  color: #330000; }
+
+.brand--primary-l80 {
+  color: #eecccc; }
+
+.brand--primary-d80 {
+  color: #220000; }
+
+.brand--primary-l90 {
+  color: #f6e6e6; }
+
+.brand--primary-d90 {
+  color: #110000; }
+
+.brand--secondary {
+  color: #2c3e4f; }
+
+.brand--secondary-l10 {
+  color: #415161; }
+
+.brand--secondary-d10 {
+  color: #283847; }
+
+.brand--secondary-l20 {
+  color: #566572; }
+
+.brand--secondary-d20 {
+  color: #23323f; }
+
+.brand--secondary-l30 {
+  color: #6b7884; }
+
+.brand--secondary-d30 {
+  color: #1f2b37; }
+
+.brand--secondary-l40 {
+  color: #808b95; }
+
+.brand--secondary-d40 {
+  color: #1a252f; }
+
+.brand--secondary-l50 {
+  color: #969fa7; }
+
+.brand--secondary-d50 {
+  color: #161f28; }
+
+.brand--secondary-l60 {
+  color: #abb2b9; }
+
+.brand--secondary-d60 {
+  color: #121920; }
+
+.brand--secondary-l70 {
+  color: #c0c5ca; }
+
+.brand--secondary-d70 {
+  color: #0d1318; }
+
+.brand--secondary-l80 {
+  color: #d5d8dc; }
+
+.brand--secondary-d80 {
+  color: #090c10; }
+
+.brand--secondary-l90 {
+  color: #eaeced; }
+
+.brand--secondary-d90 {
+  color: #040608; }
+
+.brand--tertiary {
+  color: #e3e8ec; }
+
+.brand--tertiary-l10 {
+  color: #e6eaee; }
+
+.brand--tertiary-d10 {
+  color: #ccd1d4; }
+
+.brand--tertiary-l20 {
+  color: #e9edf0; }
+
+.brand--tertiary-d20 {
+  color: #b6babd; }
+
+.brand--tertiary-l30 {
+  color: #ebeff2; }
+
+.brand--tertiary-d30 {
+  color: #9fa2a5; }
+
+.brand--tertiary-l40 {
+  color: #eef1f4; }
+
+.brand--tertiary-d40 {
+  color: #888b8e; }
+
+.brand--tertiary-l50 {
+  color: #f1f4f6; }
+
+.brand--tertiary-d50 {
+  color: #727476; }
+
+.brand--tertiary-l60 {
+  color: #f4f6f7; }
+
+.brand--tertiary-d60 {
+  color: #5b5d5e; }
+
+.brand--tertiary-l70 {
+  color: #f7f8f9; }
+
+.brand--tertiary-d70 {
+  color: #444647; }
+
+.brand--tertiary-l80 {
+  color: #f9fafb; }
+
+.brand--tertiary-d80 {
+  color: #2d2e2f; }
+
+.brand--tertiary-l90 {
+  color: #fcfdfd; }
+
+.brand--tertiary-d90 {
+  color: #171718; }
+
+.brand--quaternary {
+  color: #698bab; }
+
+.brand--quaternary-l10 {
+  color: #7897b3; }
+
+.brand--quaternary-d10 {
+  color: #5f7d9a; }
+
+.brand--quaternary-l20 {
+  color: #87a2bc; }
+
+.brand--quaternary-d20 {
+  color: #546f89; }
+
+.brand--quaternary-l30 {
+  color: #96aec4; }
+
+.brand--quaternary-d30 {
+  color: #4a6178; }
+
+.brand--quaternary-l40 {
+  color: #a5b9cd; }
+
+.brand--quaternary-d40 {
+  color: #3f5367; }
+
+.brand--quaternary-l50 {
+  color: #b4c5d5; }
+
+.brand--quaternary-d50 {
+  color: #354656; }
+
+.brand--quaternary-l60 {
+  color: #c3d1dd; }
+
+.brand--quaternary-d60 {
+  color: #2a3844; }
+
+.brand--quaternary-l70 {
+  color: #d2dce6; }
+
+.brand--quaternary-d70 {
+  color: #202a33; }
+
+.brand--quaternary-l80 {
+  color: #e1e8ee; }
+
+.brand--quaternary-d80 {
+  color: #151c22; }
+
+.brand--quaternary-l90 {
+  color: #f0f3f7; }
+
+.brand--quaternary-d90 {
+  color: #0b0e11; }
+
+.rag--red {
+  color: #b64638; }
+
+.rag--red-l10 {
+  color: #bd594c; }
+
+.rag--red-d10 {
+  color: #a43f32; }
+
+.rag--red-l20 {
+  color: #c56b60; }
+
+.rag--red-d20 {
+  color: #92382d; }
+
+.rag--red-l30 {
+  color: #cc7e74; }
+
+.rag--red-d30 {
+  color: #7f3127; }
+
+.rag--red-l40 {
+  color: #d39088; }
+
+.rag--red-d40 {
+  color: #6d2a22; }
+
+.rag--red-l50 {
+  color: #dba39c; }
+
+.rag--red-d50 {
+  color: #5b231c; }
+
+.rag--red-l60 {
+  color: #e2b5af; }
+
+.rag--red-d60 {
+  color: #491c16; }
+
+.rag--red-l70 {
+  color: #e9c8c3; }
+
+.rag--red-d70 {
+  color: #371511; }
+
+.rag--red-l80 {
+  color: #f0dad7; }
+
+.rag--red-d80 {
+  color: #240e0b; }
+
+.rag--red-l90 {
+  color: #f8edeb; }
+
+.rag--red-d90 {
+  color: #120706; }
+
+.rag--blue {
+  color: #3184d4; }
+
+.rag--blue-l10 {
+  color: #4690d8; }
+
+.rag--blue-d10 {
+  color: #2c77bf; }
+
+.rag--blue-l20 {
+  color: #5a9ddd; }
+
+.rag--blue-d20 {
+  color: #276aaa; }
+
+.rag--blue-l30 {
+  color: #6fa9e1; }
+
+.rag--blue-d30 {
+  color: #225c94; }
+
+.rag--blue-l40 {
+  color: #83b5e5; }
+
+.rag--blue-d40 {
+  color: #1d4f7f; }
+
+.rag--blue-l50 {
+  color: #98c2ea; }
+
+.rag--blue-d50 {
+  color: #19426a; }
+
+.rag--blue-l60 {
+  color: #adceee; }
+
+.rag--blue-d60 {
+  color: #143555; }
+
+.rag--blue-l70 {
+  color: #c1daf2; }
+
+.rag--blue-d70 {
+  color: #0f2840; }
+
+.rag--blue-l80 {
+  color: #d6e6f6; }
+
+.rag--blue-d80 {
+  color: #0a1a2a; }
+
+.rag--blue-l90 {
+  color: #eaf3fb; }
+
+.rag--blue-d90 {
+  color: #050d15; }
+
+.rag--amber {
+  color: #d6902e; }
+
+.rag--amber-l10 {
+  color: #da9b43; }
+
+.rag--amber-d10 {
+  color: #c18229; }
+
+.rag--amber-l20 {
+  color: #dea658; }
+
+.rag--amber-d20 {
+  color: #ab7325; }
+
+.rag--amber-l30 {
+  color: #e2b16d; }
+
+.rag--amber-d30 {
+  color: #966520; }
+
+.rag--amber-l40 {
+  color: #e6bc82; }
+
+.rag--amber-d40 {
+  color: #80561c; }
+
+.rag--amber-l50 {
+  color: #ebc897; }
+
+.rag--amber-d50 {
+  color: #6b4817; }
+
+.rag--amber-l60 {
+  color: #efd3ab; }
+
+.rag--amber-d60 {
+  color: #563a12; }
+
+.rag--amber-l70 {
+  color: #f3dec0; }
+
+.rag--amber-d70 {
+  color: #402b0e; }
+
+.rag--amber-l80 {
+  color: #f7e9d5; }
+
+.rag--amber-d80 {
+  color: #2b1d09; }
+
+.rag--amber-l90 {
+  color: #fbf4ea; }
+
+.rag--amber-d90 {
+  color: #150e05; }
+
+.rag--green {
+  color: #559a47; }
+
+.rag--green-l10 {
+  color: #66a459; }
+
+.rag--green-d10 {
+  color: #4d8b40; }
+
+.rag--green-l20 {
+  color: #77ae6c; }
+
+.rag--green-d20 {
+  color: #447b39; }
+
+.rag--green-l30 {
+  color: #88b87e; }
+
+.rag--green-d30 {
+  color: #3c6c32; }
+
+.rag--green-l40 {
+  color: #99c291; }
+
+.rag--green-d40 {
+  color: #335c2b; }
+
+.rag--green-l50 {
+  color: #aacda3; }
+
+.rag--green-d50 {
+  color: #2b4d24; }
+
+.rag--green-l60 {
+  color: #bbd7b5; }
+
+.rag--green-d60 {
+  color: #223e1c; }
+
+.rag--green-l70 {
+  color: #cce1c8; }
+
+.rag--green-d70 {
+  color: #1a2e15; }
+
+.rag--green-l80 {
+  color: #ddebda; }
+
+.rag--green-d80 {
+  color: #111f0e; }
+
+.rag--green-l90 {
+  color: #eef5ed; }
+
+.rag--green-d90 {
+  color: #090f07; }
+
+.rag--yellow {
+  color: #fece25; }
+
+.rag--yellow-l10 {
+  color: #fed33b; }
+
+.rag--yellow-d10 {
+  color: #e5b921; }
+
+.rag--yellow-l20 {
+  color: #fed851; }
+
+.rag--yellow-d20 {
+  color: #cba51e; }
+
+.rag--yellow-l30 {
+  color: #fedd66; }
+
+.rag--yellow-d30 {
+  color: #b2901a; }
+
+.rag--yellow-l40 {
+  color: #fee27c; }
+
+.rag--yellow-d40 {
+  color: #987c16; }
+
+.rag--yellow-l50 {
+  color: #ffe792; }
+
+.rag--yellow-d50 {
+  color: #7f6713; }
+
+.rag--yellow-l60 {
+  color: #ffeba8; }
+
+.rag--yellow-d60 {
+  color: #66520f; }
+
+.rag--yellow-l70 {
+  color: #fff0be; }
+
+.rag--yellow-d70 {
+  color: #4c3e0b; }
+
+.rag--yellow-l80 {
+  color: #fff5d3; }
+
+.rag--yellow-d80 {
+  color: #332907; }
+
+.rag--yellow-l90 {
+  color: #fffae9; }
+
+.rag--yellow-d90 {
+  color: #191504; }
+
+.rag--purple {
+  color: #8e6cbb; }
+
+.rag--purple-l10 {
+  color: #997bc2; }
+
+.rag--purple-d10 {
+  color: #8061a8; }
+
+.rag--purple-l20 {
+  color: #a589c9; }
+
+.rag--purple-d20 {
+  color: #725696; }
+
+.rag--purple-l30 {
+  color: #b098cf; }
+
+.rag--purple-d30 {
+  color: #634c83; }
+
+.rag--purple-l40 {
+  color: #bba7d6; }
+
+.rag--purple-d40 {
+  color: #554170; }
+
+.rag--purple-l50 {
+  color: #c7b6dd; }
+
+.rag--purple-d50 {
+  color: #47365e; }
+
+.rag--purple-l60 {
+  color: #d2c4e4; }
+
+.rag--purple-d60 {
+  color: #392b4b; }
+
+.rag--purple-l70 {
+  color: #ddd3eb; }
+
+.rag--purple-d70 {
+  color: #2b2038; }
+
+.rag--purple-l80 {
+  color: #e8e2f1; }
+
+.rag--purple-d80 {
+  color: #1c1625; }
+
+.rag--purple-l90 {
+  color: #f4f0f8; }
+
+.rag--purple-d90 {
+  color: #0e0b13; }
+
+.rag--white {
+  color: #f7f7f7; }
+
+.rag--white-l10 {
+  color: #f8f8f8; }
+
+.rag--white-d10 {
+  color: #dedede; }
+
+.rag--white-l20 {
+  color: #f9f9f9; }
+
+.rag--white-d20 {
+  color: #c6c6c6; }
+
+.rag--white-l30 {
+  color: #f9f9f9; }
+
+.rag--white-d30 {
+  color: #adadad; }
+
+.rag--white-l40 {
+  color: #fafafa; }
+
+.rag--white-d40 {
+  color: #949494; }
+
+.rag--white-l50 {
+  color: #fbfbfb; }
+
+.rag--white-d50 {
+  color: #7c7c7c; }
+
+.rag--white-l60 {
+  color: #fcfcfc; }
+
+.rag--white-d60 {
+  color: #636363; }
+
+.rag--white-l70 {
+  color: #fdfdfd; }
+
+.rag--white-d70 {
+  color: #4a4a4a; }
+
+.rag--white-l80 {
+  color: #fdfdfd; }
+
+.rag--white-d80 {
+  color: #313131; }
+
+.rag--white-l90 {
+  color: #fefefe; }
+
+.rag--white-d90 {
+  color: #191919; }
+
+.rag--black {
+  color: black; }
+
+.rag--black-l10 {
+  color: #1a1a1a; }
+
+.rag--black-d10 {
+  color: black; }
+
+.rag--black-l20 {
+  color: #333333; }
+
+.rag--black-d20 {
+  color: black; }
+
+.rag--black-l30 {
+  color: #4d4d4d; }
+
+.rag--black-d30 {
+  color: black; }
+
+.rag--black-l40 {
+  color: #666666; }
+
+.rag--black-d40 {
+  color: black; }
+
+.rag--black-l50 {
+  color: gray; }
+
+.rag--black-d50 {
+  color: black; }
+
+.rag--black-l60 {
+  color: #999999; }
+
+.rag--black-d60 {
+  color: black; }
+
+.rag--black-l70 {
+  color: #b3b3b3; }
+
+.rag--black-d70 {
+  color: black; }
+
+.rag--black-l80 {
+  color: #cccccc; }
+
+.rag--black-d80 {
+  color: black; }
+
+.rag--black-l90 {
+  color: #e6e6e6; }
+
+.rag--black-d90 {
+  color: black; }
+
+.rag--teal {
+  color: #5eb8c8; }
+
+.rag--teal-l10 {
+  color: #6ebfce; }
+
+.rag--teal-d10 {
+  color: #55a6b4; }
+
+.rag--teal-l20 {
+  color: #7ec6d3; }
+
+.rag--teal-d20 {
+  color: #4b93a0; }
+
+.rag--teal-l30 {
+  color: #8ecdd9; }
+
+.rag--teal-d30 {
+  color: #42818c; }
+
+.rag--teal-l40 {
+  color: #9ed4de; }
+
+.rag--teal-d40 {
+  color: #386e78; }
+
+.rag--teal-l50 {
+  color: #afdce4; }
+
+.rag--teal-d50 {
+  color: #2f5c64; }
+
+.rag--teal-l60 {
+  color: #bfe3e9; }
+
+.rag--teal-d60 {
+  color: #264a50; }
+
+.rag--teal-l70 {
+  color: #cfeaef; }
+
+.rag--teal-d70 {
+  color: #1c373c; }
+
+.rag--teal-l80 {
+  color: #dff1f4; }
+
+.rag--teal-d80 {
+  color: #132528; }
+
+.rag--teal-l90 {
+  color: #eff8fa; }
+
+.rag--teal-d90 {
+  color: #091214; }
+
+.rag--pink {
+  color: #d23b6b; }
+
+.rag--pink-l10 {
+  color: #d74f7a; }
+
+.rag--pink-d10 {
+  color: #bd3560; }
+
+.rag--pink-l20 {
+  color: #db6289; }
+
+.rag--pink-d20 {
+  color: #a82f56; }
+
+.rag--pink-l30 {
+  color: #e07697; }
+
+.rag--pink-d30 {
+  color: #93294b; }
+
+.rag--pink-l40 {
+  color: #e489a6; }
+
+.rag--pink-d40 {
+  color: #7e2340; }
+
+.rag--pink-l50 {
+  color: #e99db5; }
+
+.rag--pink-d50 {
+  color: #691e36; }
+
+.rag--pink-l60 {
+  color: #edb1c4; }
+
+.rag--pink-d60 {
+  color: #54182b; }
+
+.rag--pink-l70 {
+  color: #f2c4d3; }
+
+.rag--pink-d70 {
+  color: #3f1220; }
+
+.rag--pink-l80 {
+  color: #f6d8e1; }
+
+.rag--pink-d80 {
+  color: #2a0c15; }
+
+.rag--pink-l90 {
+  color: #fbebf0; }
+
+.rag--pink-d90 {
+  color: #15060b; }
+
+.ofsted--outstanding {
+  color: #61b752; }
+
+.ofsted--outstanding-l10 {
+  color: #71be63; }
+
+.ofsted--outstanding-d10 {
+  color: #57a54a; }
+
+.ofsted--outstanding-l20 {
+  color: #81c575; }
+
+.ofsted--outstanding-d20 {
+  color: #4e9242; }
+
+.ofsted--outstanding-l30 {
+  color: #90cd86; }
+
+.ofsted--outstanding-d30 {
+  color: #448039; }
+
+.ofsted--outstanding-l40 {
+  color: #a0d497; }
+
+.ofsted--outstanding-d40 {
+  color: #3a6e31; }
+
+.ofsted--outstanding-l50 {
+  color: #b0dba9; }
+
+.ofsted--outstanding-d50 {
+  color: #315c29; }
+
+.ofsted--outstanding-l60 {
+  color: #c0e2ba; }
+
+.ofsted--outstanding-d60 {
+  color: #274921; }
+
+.ofsted--outstanding-l70 {
+  color: #d0e9cb; }
+
+.ofsted--outstanding-d70 {
+  color: #1d3719; }
+
+.ofsted--outstanding-l80 {
+  color: #dff1dc; }
+
+.ofsted--outstanding-d80 {
+  color: #132510; }
+
+.ofsted--outstanding-l90 {
+  color: #eff8ee; }
+
+.ofsted--outstanding-d90 {
+  color: #0a1208; }
+
+.ofsted--good {
+  color: #8b94b1; }
+
+.ofsted--good-l10 {
+  color: #979fb9; }
+
+.ofsted--good-d10 {
+  color: #7d859f; }
+
+.ofsted--good-l20 {
+  color: #a2a9c1; }
+
+.ofsted--good-d20 {
+  color: #6f768e; }
+
+.ofsted--good-l30 {
+  color: #aeb4c8; }
+
+.ofsted--good-d30 {
+  color: #61687c; }
+
+.ofsted--good-l40 {
+  color: #b9bfd0; }
+
+.ofsted--good-d40 {
+  color: #53596a; }
+
+.ofsted--good-l50 {
+  color: #c5cad8; }
+
+.ofsted--good-d50 {
+  color: #464a59; }
+
+.ofsted--good-l60 {
+  color: #d1d4e0; }
+
+.ofsted--good-d60 {
+  color: #383b47; }
+
+.ofsted--good-l70 {
+  color: #dcdfe8; }
+
+.ofsted--good-d70 {
+  color: #2a2c35; }
+
+.ofsted--good-l80 {
+  color: #e8eaef; }
+
+.ofsted--good-d80 {
+  color: #1c1e23; }
+
+.ofsted--good-l90 {
+  color: #f3f4f7; }
+
+.ofsted--good-d90 {
+  color: #0e0f12; }
+
+.ofsted--req {
+  color: #f6bf58; }
+
+.ofsted--req-l10 {
+  color: #f7c569; }
+
+.ofsted--req-d10 {
+  color: #ddac4f; }
+
+.ofsted--req-l20 {
+  color: #f8cc79; }
+
+.ofsted--req-d20 {
+  color: #c59946; }
+
+.ofsted--req-l30 {
+  color: #f9d28a; }
+
+.ofsted--req-d30 {
+  color: #ac863e; }
+
+.ofsted--req-l40 {
+  color: #fad99b; }
+
+.ofsted--req-d40 {
+  color: #947335; }
+
+.ofsted--req-l50 {
+  color: #fbdfac; }
+
+.ofsted--req-d50 {
+  color: #7b602c; }
+
+.ofsted--req-l60 {
+  color: #fbe5bc; }
+
+.ofsted--req-d60 {
+  color: #624c23; }
+
+.ofsted--req-l70 {
+  color: #fceccd; }
+
+.ofsted--req-d70 {
+  color: #4a391a; }
+
+.ofsted--req-l80 {
+  color: #fdf2de; }
+
+.ofsted--req-d80 {
+  color: #312612; }
+
+.ofsted--req-l90 {
+  color: #fef9ee; }
+
+.ofsted--req-d90 {
+  color: #191309; }
+
+.ofsted--inadequate {
+  color: #b46350; }
+
+.ofsted--inadequate-l10 {
+  color: #bc7362; }
+
+.ofsted--inadequate-d10 {
+  color: #a25948; }
+
+.ofsted--inadequate-l20 {
+  color: #c38273; }
+
+.ofsted--inadequate-d20 {
+  color: #904f40; }
+
+.ofsted--inadequate-l30 {
+  color: #cb9285; }
+
+.ofsted--inadequate-d30 {
+  color: #7e4538; }
+
+.ofsted--inadequate-l40 {
+  color: #d2a196; }
+
+.ofsted--inadequate-d40 {
+  color: #6c3b30; }
+
+.ofsted--inadequate-l50 {
+  color: #dab1a8; }
+
+.ofsted--inadequate-d50 {
+  color: #5a3228; }
+
+.ofsted--inadequate-l60 {
+  color: #e1c1b9; }
+
+.ofsted--inadequate-d60 {
+  color: #482820; }
+
+.ofsted--inadequate-l70 {
+  color: #e9d0cb; }
+
+.ofsted--inadequate-d70 {
+  color: #361e18; }
+
+.ofsted--inadequate-l80 {
+  color: #f0e0dc; }
+
+.ofsted--inadequate-d80 {
+  color: #241410; }
+
+.ofsted--inadequate-l90 {
+  color: #f8efee; }
+
+.ofsted--inadequate-d90 {
+  color: #120a08; }
+
+.ofsted--no-grade {
+  color: #aaa; }
+
+.ofsted--no-grade-l10 {
+  color: #b3b3b3; }
+
+.ofsted--no-grade-d10 {
+  color: #999999; }
+
+.ofsted--no-grade-l20 {
+  color: #bbbbbb; }
+
+.ofsted--no-grade-d20 {
+  color: #888888; }
+
+.ofsted--no-grade-l30 {
+  color: #c4c4c4; }
+
+.ofsted--no-grade-d30 {
+  color: #777777; }
+
+.ofsted--no-grade-l40 {
+  color: #cccccc; }
+
+.ofsted--no-grade-d40 {
+  color: #666666; }
+
+.ofsted--no-grade-l50 {
+  color: #d5d5d5; }
+
+.ofsted--no-grade-d50 {
+  color: #555555; }
+
+.ofsted--no-grade-l60 {
+  color: #dddddd; }
+
+.ofsted--no-grade-d60 {
+  color: #444444; }
+
+.ofsted--no-grade-l70 {
+  color: #e6e6e6; }
+
+.ofsted--no-grade-d70 {
+  color: #333333; }
+
+.ofsted--no-grade-l80 {
+  color: #eeeeee; }
+
+.ofsted--no-grade-d80 {
+  color: #222222; }
+
+.ofsted--no-grade-l90 {
+  color: #f7f7f7; }
+
+.ofsted--no-grade-d90 {
+  color: #111111; }
+
+.status--not-started {
+  color: #bc8025; }
+
+.status--not-started-l10 {
+  color: #c38d3b; }
+
+.status--not-started-d10 {
+  color: #a97321; }
+
+.status--not-started-l20 {
+  color: #c99951; }
+
+.status--not-started-d20 {
+  color: #96661e; }
+
+.status--not-started-l30 {
+  color: #d0a666; }
+
+.status--not-started-d30 {
+  color: #845a1a; }
+
+.status--not-started-l40 {
+  color: #d7b37c; }
+
+.status--not-started-d40 {
+  color: #714d16; }
+
+.status--not-started-l50 {
+  color: #dec092; }
+
+.status--not-started-d50 {
+  color: #5e4013; }
+
+.status--not-started-l60 {
+  color: #e4cca8; }
+
+.status--not-started-d60 {
+  color: #4b330f; }
+
+.status--not-started-l70 {
+  color: #ebd9be; }
+
+.status--not-started-d70 {
+  color: #38260b; }
+
+.status--not-started-l80 {
+  color: #f2e6d3; }
+
+.status--not-started-d80 {
+  color: #261a07; }
+
+.status--not-started-l90 {
+  color: #f8f2e9; }
+
+.status--not-started-d90 {
+  color: #130d04; }
+
+.status--incomplete {
+  color: #7688c1; }
+
+.status--incomplete-l10 {
+  color: #8494c7; }
+
+.status--incomplete-d10 {
+  color: #6a7aae; }
+
+.status--incomplete-l20 {
+  color: #91a0cd; }
+
+.status--incomplete-d20 {
+  color: #5e6d9a; }
+
+.status--incomplete-l30 {
+  color: #9facd4; }
+
+.status--incomplete-d30 {
+  color: #535f87; }
+
+.status--incomplete-l40 {
+  color: #adb8da; }
+
+.status--incomplete-d40 {
+  color: #475274; }
+
+.status--incomplete-l50 {
+  color: #bbc4e0; }
+
+.status--incomplete-d50 {
+  color: #3b4461; }
+
+.status--incomplete-l60 {
+  color: #c8cfe6; }
+
+.status--incomplete-d60 {
+  color: #2f364d; }
+
+.status--incomplete-l70 {
+  color: #d6dbec; }
+
+.status--incomplete-d70 {
+  color: #23293a; }
+
+.status--incomplete-l80 {
+  color: #e4e7f3; }
+
+.status--incomplete-d80 {
+  color: #181b27; }
+
+.status--incomplete-l90 {
+  color: #f1f3f9; }
+
+.status--incomplete-d90 {
+  color: #0c0e13; }
+
+.status--cancelled {
+  color: #777; }
+
+.status--cancelled-l10 {
+  color: #858585; }
+
+.status--cancelled-d10 {
+  color: #6b6b6b; }
+
+.status--cancelled-l20 {
+  color: #929292; }
+
+.status--cancelled-d20 {
+  color: #5f5f5f; }
+
+.status--cancelled-l30 {
+  color: #a0a0a0; }
+
+.status--cancelled-d30 {
+  color: #535353; }
+
+.status--cancelled-l40 {
+  color: #adadad; }
+
+.status--cancelled-d40 {
+  color: #474747; }
+
+.status--cancelled-l50 {
+  color: #bbbbbb; }
+
+.status--cancelled-d50 {
+  color: #3c3c3c; }
+
+.status--cancelled-l60 {
+  color: #c9c9c9; }
+
+.status--cancelled-d60 {
+  color: #303030; }
+
+.status--cancelled-l70 {
+  color: #d6d6d6; }
+
+.status--cancelled-d70 {
+  color: #242424; }
+
+.status--cancelled-l80 {
+  color: #e4e4e4; }
+
+.status--cancelled-d80 {
+  color: #181818; }
+
+.status--cancelled-l90 {
+  color: #f1f1f1; }
+
+.status--cancelled-d90 {
+  color: #0c0c0c; }
+
 body {
-  background-color: #2f3439;
+  background-color: #202a33;
   font-family: "Open Sans", sans-serif;
   text-align: center;
   color: white;
@@ -18,601 +1272,7 @@ span {
   margin-right: 5px;
   font-size: 58px; }
 
-.brand--primary {
-  color: #a90100; }
-
-.brand--primary-l30 {
-  color: #c34d4d; }
-
-.brand--primary-d30 {
-  color: #760100; }
-
-.brand--primary-l50 {
-  color: #d48080; }
-
-.brand--primary-d50 {
-  color: #550100; }
-
-.brand--primary-l70 {
-  color: #e5b3b3; }
-
-.brand--primary-d70 {
-  color: #330000; }
-
-.brand--primary-l90 {
-  color: #f6e6e6; }
-
-.brand--primary-d90 {
-  color: #110000; }
-
-.brand--secondary {
-  color: #2c3e4f; }
-
-.brand--secondary-l30 {
-  color: #6b7884; }
-
-.brand--secondary-d30 {
-  color: #1f2b37; }
-
-.brand--secondary-l50 {
-  color: #969fa7; }
-
-.brand--secondary-d50 {
-  color: #161f28; }
-
-.brand--secondary-l70 {
-  color: #c0c5ca; }
-
-.brand--secondary-d70 {
-  color: #0d1318; }
-
-.brand--secondary-l90 {
-  color: #eaeced; }
-
-.brand--secondary-d90 {
-  color: #040608; }
-
-.brand--tertiary {
-  color: #e3e8ec; }
-
-.brand--tertiary-l30 {
-  color: #ebeff2; }
-
-.brand--tertiary-d30 {
-  color: #9fa2a5; }
-
-.brand--tertiary-l50 {
-  color: #f1f4f6; }
-
-.brand--tertiary-d50 {
-  color: #727476; }
-
-.brand--tertiary-l70 {
-  color: #f7f8f9; }
-
-.brand--tertiary-d70 {
-  color: #444647; }
-
-.brand--tertiary-l90 {
-  color: #fcfdfd; }
-
-.brand--tertiary-d90 {
-  color: #171718; }
-
-.brand--quaternary {
-  color: #698bab; }
-
-.brand--quaternary-l30 {
-  color: #96aec4; }
-
-.brand--quaternary-d30 {
-  color: #4a6178; }
-
-.brand--quaternary-l50 {
-  color: #b4c5d5; }
-
-.brand--quaternary-d50 {
-  color: #354656; }
-
-.brand--quaternary-l70 {
-  color: #d2dce6; }
-
-.brand--quaternary-d70 {
-  color: #202a33; }
-
-.brand--quaternary-l90 {
-  color: #f0f3f7; }
-
-.brand--quaternary-d90 {
-  color: #0b0e11; }
-
-.rag--red {
-  color: #b64638; }
-
-.rag--red-l30 {
-  color: #cc7e74; }
-
-.rag--red-d30 {
-  color: #7f3127; }
-
-.rag--red-l50 {
-  color: #dba39c; }
-
-.rag--red-d50 {
-  color: #5b231c; }
-
-.rag--red-l70 {
-  color: #e9c8c3; }
-
-.rag--red-d70 {
-  color: #371511; }
-
-.rag--red-l90 {
-  color: #f8edeb; }
-
-.rag--red-d90 {
-  color: #120706; }
-
-.rag--blue {
-  color: #3184d4; }
-
-.rag--blue-l30 {
-  color: #6fa9e1; }
-
-.rag--blue-d30 {
-  color: #225c94; }
-
-.rag--blue-l50 {
-  color: #98c2ea; }
-
-.rag--blue-d50 {
-  color: #19426a; }
-
-.rag--blue-l70 {
-  color: #c1daf2; }
-
-.rag--blue-d70 {
-  color: #0f2840; }
-
-.rag--blue-l90 {
-  color: #eaf3fb; }
-
-.rag--blue-d90 {
-  color: #050d15; }
-
-.rag--amber {
-  color: #d6902e; }
-
-.rag--amber-l30 {
-  color: #e2b16d; }
-
-.rag--amber-d30 {
-  color: #966520; }
-
-.rag--amber-l50 {
-  color: #ebc897; }
-
-.rag--amber-d50 {
-  color: #6b4817; }
-
-.rag--amber-l70 {
-  color: #f3dec0; }
-
-.rag--amber-d70 {
-  color: #402b0e; }
-
-.rag--amber-l90 {
-  color: #fbf4ea; }
-
-.rag--amber-d90 {
-  color: #150e05; }
-
-.rag--green {
-  color: #559a47; }
-
-.rag--green-l30 {
-  color: #88b87e; }
-
-.rag--green-d30 {
-  color: #3c6c32; }
-
-.rag--green-l50 {
-  color: #aacda3; }
-
-.rag--green-d50 {
-  color: #2b4d24; }
-
-.rag--green-l70 {
-  color: #cce1c8; }
-
-.rag--green-d70 {
-  color: #1a2e15; }
-
-.rag--green-l90 {
-  color: #eef5ed; }
-
-.rag--green-d90 {
-  color: #090f07; }
-
-.rag--yellow {
-  color: #fece25; }
-
-.rag--yellow-l30 {
-  color: #fedd66; }
-
-.rag--yellow-d30 {
-  color: #b2901a; }
-
-.rag--yellow-l50 {
-  color: #ffe792; }
-
-.rag--yellow-d50 {
-  color: #7f6713; }
-
-.rag--yellow-l70 {
-  color: #fff0be; }
-
-.rag--yellow-d70 {
-  color: #4c3e0b; }
-
-.rag--yellow-l90 {
-  color: #fffae9; }
-
-.rag--yellow-d90 {
-  color: #191504; }
-
-.rag--purple {
-  color: #8e6cbb; }
-
-.rag--purple-l30 {
-  color: #b098cf; }
-
-.rag--purple-d30 {
-  color: #634c83; }
-
-.rag--purple-l50 {
-  color: #c7b6dd; }
-
-.rag--purple-d50 {
-  color: #47365e; }
-
-.rag--purple-l70 {
-  color: #ddd3eb; }
-
-.rag--purple-d70 {
-  color: #2b2038; }
-
-.rag--purple-l90 {
-  color: #f4f0f8; }
-
-.rag--purple-d90 {
-  color: #0e0b13; }
-
-.rag--white {
-  color: #f7f7f7; }
-
-.rag--white-l30 {
-  color: #f9f9f9; }
-
-.rag--white-d30 {
-  color: #adadad; }
-
-.rag--white-l50 {
-  color: #fbfbfb; }
-
-.rag--white-d50 {
-  color: #7c7c7c; }
-
-.rag--white-l70 {
-  color: #fdfdfd; }
-
-.rag--white-d70 {
-  color: #4a4a4a; }
-
-.rag--white-l90 {
-  color: #fefefe; }
-
-.rag--white-d90 {
-  color: #191919; }
-
-.rag--black {
-  color: black; }
-
-.rag--black-l30 {
-  color: #4d4d4d; }
-
-.rag--black-d30 {
-  color: black; }
-
-.rag--black-l50 {
-  color: gray; }
-
-.rag--black-d50 {
-  color: black; }
-
-.rag--black-l70 {
-  color: #b3b3b3; }
-
-.rag--black-d70 {
-  color: black; }
-
-.rag--black-l90 {
-  color: #e6e6e6; }
-
-.rag--black-d90 {
-  color: black; }
-
-.rag--teal {
-  color: #5eb8c8; }
-
-.rag--teal-l30 {
-  color: #8ecdd9; }
-
-.rag--teal-d30 {
-  color: #42818c; }
-
-.rag--teal-l50 {
-  color: #afdce4; }
-
-.rag--teal-d50 {
-  color: #2f5c64; }
-
-.rag--teal-l70 {
-  color: #cfeaef; }
-
-.rag--teal-d70 {
-  color: #1c373c; }
-
-.rag--teal-l90 {
-  color: #eff8fa; }
-
-.rag--teal-d90 {
-  color: #091214; }
-
-.rag--pink {
-  color: #d23b6b; }
-
-.rag--pink-l30 {
-  color: #e07697; }
-
-.rag--pink-d30 {
-  color: #93294b; }
-
-.rag--pink-l50 {
-  color: #e99db5; }
-
-.rag--pink-d50 {
-  color: #691e36; }
-
-.rag--pink-l70 {
-  color: #f2c4d3; }
-
-.rag--pink-d70 {
-  color: #3f1220; }
-
-.rag--pink-l90 {
-  color: #fbebf0; }
-
-.rag--pink-d90 {
-  color: #15060b; }
-
-.ofsted--outstanding {
-  color: #61b752; }
-
-.ofsted--outstanding-l30 {
-  color: #90cd86; }
-
-.ofsted--outstanding-d30 {
-  color: #448039; }
-
-.ofsted--outstanding-l50 {
-  color: #b0dba9; }
-
-.ofsted--outstanding-d50 {
-  color: #315c29; }
-
-.ofsted--outstanding-l70 {
-  color: #d0e9cb; }
-
-.ofsted--outstanding-d70 {
-  color: #1d3719; }
-
-.ofsted--outstanding-l90 {
-  color: #eff8ee; }
-
-.ofsted--outstanding-d90 {
-  color: #0a1208; }
-
-.ofsted--good {
-  color: #8b94b1; }
-
-.ofsted--good-l30 {
-  color: #aeb4c8; }
-
-.ofsted--good-d30 {
-  color: #61687c; }
-
-.ofsted--good-l50 {
-  color: #c5cad8; }
-
-.ofsted--good-d50 {
-  color: #464a59; }
-
-.ofsted--good-l70 {
-  color: #dcdfe8; }
-
-.ofsted--good-d70 {
-  color: #2a2c35; }
-
-.ofsted--good-l90 {
-  color: #f3f4f7; }
-
-.ofsted--good-d90 {
-  color: #0e0f12; }
-
-.ofsted--req {
-  color: #f6bf58; }
-
-.ofsted--req-l30 {
-  color: #f9d28a; }
-
-.ofsted--req-d30 {
-  color: #ac863e; }
-
-.ofsted--req-l50 {
-  color: #fbdfac; }
-
-.ofsted--req-d50 {
-  color: #7b602c; }
-
-.ofsted--req-l70 {
-  color: #fceccd; }
-
-.ofsted--req-d70 {
-  color: #4a391a; }
-
-.ofsted--req-l90 {
-  color: #fef9ee; }
-
-.ofsted--req-d90 {
-  color: #191309; }
-
-.ofsted--inadequate {
-  color: #b46350; }
-
-.ofsted--inadequate-l30 {
-  color: #cb9285; }
-
-.ofsted--inadequate-d30 {
-  color: #7e4538; }
-
-.ofsted--inadequate-l50 {
-  color: #dab1a8; }
-
-.ofsted--inadequate-d50 {
-  color: #5a3228; }
-
-.ofsted--inadequate-l70 {
-  color: #e9d0cb; }
-
-.ofsted--inadequate-d70 {
-  color: #361e18; }
-
-.ofsted--inadequate-l90 {
-  color: #f8efee; }
-
-.ofsted--inadequate-d90 {
-  color: #120a08; }
-
-.ofsted--no-grade {
-  color: #aaa; }
-
-.ofsted--no-grade-l30 {
-  color: #c4c4c4; }
-
-.ofsted--no-grade-d30 {
-  color: #777777; }
-
-.ofsted--no-grade-l50 {
-  color: #d5d5d5; }
-
-.ofsted--no-grade-d50 {
-  color: #555555; }
-
-.ofsted--no-grade-l70 {
-  color: #e6e6e6; }
-
-.ofsted--no-grade-d70 {
-  color: #333333; }
-
-.ofsted--no-grade-l90 {
-  color: #f7f7f7; }
-
-.ofsted--no-grade-d90 {
-  color: #111111; }
-
-.status--not-started {
-  color: #bc8025; }
-
-.status--not-started-l30 {
-  color: #d0a666; }
-
-.status--not-started-d30 {
-  color: #845a1a; }
-
-.status--not-started-l50 {
-  color: #dec092; }
-
-.status--not-started-d50 {
-  color: #5e4013; }
-
-.status--not-started-l70 {
-  color: #ebd9be; }
-
-.status--not-started-d70 {
-  color: #38260b; }
-
-.status--not-started-l90 {
-  color: #f8f2e9; }
-
-.status--not-started-d90 {
-  color: #130d04; }
-
-.status--incomplete {
-  color: #7688c1; }
-
-.status--incomplete-l30 {
-  color: #9facd4; }
-
-.status--incomplete-d30 {
-  color: #535f87; }
-
-.status--incomplete-l50 {
-  color: #bbc4e0; }
-
-.status--incomplete-d50 {
-  color: #3b4461; }
-
-.status--incomplete-l70 {
-  color: #d6dbec; }
-
-.status--incomplete-d70 {
-  color: #23293a; }
-
-.status--incomplete-l90 {
-  color: #f1f3f9; }
-
-.status--incomplete-d90 {
-  color: #0c0e13; }
-
-.status--cancelled {
-  color: #777; }
-
-.status--cancelled-l30 {
-  color: #a0a0a0; }
-
-.status--cancelled-d30 {
-  color: #535353; }
-
-.status--cancelled-l50 {
-  color: #bbbbbb; }
-
-.status--cancelled-d50 {
-  color: #3c3c3c; }
-
-.status--cancelled-l70 {
-  color: #d6d6d6; }
-
-.status--cancelled-d70 {
-  color: #242424; }
-
-.status--cancelled-l90 {
-  color: #f1f1f1; }
-
-.status--cancelled-d90 {
-  color: #0c0c0c; }
-
 p {
-  color: #b4c5d5; }
+  color: #d2dce6; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,25 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open + Sans:400, 700");
-body {
-  background-color: #2f3439;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  color: white;
-  line-height: 1.5;
-  font-size: 18px;
-  word-spacing: 0.125em;
-}
-
-h2 {
-  line-height: 1;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-}
-
-span {
-  display: inline-block;
-  margin-right: 5px;
-  font-size: 58px;
-}
 
 $color-psp--primary: #a90100;
 $color-psp--secondary: #2c3e4f;
@@ -98,32 +77,24 @@ $color-map: (
           #{$item}--#{$color-name}:
             (
               l90: mix(white, $value, 90%),
-              //l80: mix(white, $value, 80%),
-                l70:
-                mix(white, $value, 70%),
-              //l60: mix(white, $value, 60%),
-                l50:
-                mix(white, $value, 50%),
-              //l40: mix(white, $value, 40%),
-                l30:
-                mix(white, $value, 30%),
-              //l20: mix(white, $value, 20%),
-                //l10: mix(white, $value, 10%),
-                base:
-                $value,
-              //d10: mix(black, $value, 10%),
-                //d20: mix(black, $value, 20%),
-                d30:
-                mix(black, $value, 30%),
-              //d40: mix(black, $value, 40%),
-                d50:
-                mix(black, $value, 50%),
-              //d60: mix(black, $value, 60%),
-                d70:
-                mix(black, $value, 70%),
-              //d80: mix(black, $value, 80%),
-                d90:
-                mix(black, $value, 90%)
+              l80: mix(white, $value, 80%),
+              l70: mix(white, $value, 70%),
+              l60: mix(white, $value, 60%),
+              l50: mix(white, $value, 50%),
+              l40: mix(white, $value, 40%),
+              l30: mix(white, $value, 30%),
+              l20: mix(white, $value, 20%),
+              l10: mix(white, $value, 10%),
+              base: $value,
+              d10: mix(black, $value, 10%),
+              d20: mix(black, $value, 20%),
+              d30: mix(black, $value, 30%),
+              d40: mix(black, $value, 40%),
+              d50: mix(black, $value, 50%),
+              d60: mix(black, $value, 60%),
+              d70: mix(black, $value, 70%),
+              d80: mix(black, $value, 80%),
+              d90: mix(black, $value, 90%)
             )
         )
       );
@@ -152,6 +123,28 @@ $color-map-expanded: generate-map($color-map);
   }
 }
 
+body {
+  background-color: color(brand--quaternary, d70);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+  font-size: 18px;
+  word-spacing: 0.125em;
+}
+
+h2 {
+  line-height: 1;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+span {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 58px;
+}
+
 p {
-  color: color(brand--quaternary, l50);
+  color: color(brand--quaternary, l70);
 }
