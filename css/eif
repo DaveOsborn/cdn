@@ -1,0 +1,127 @@
+body {
+    background: #1e82bf;
+    background: linear-gradient(0deg, rgba(4,79,134,1) 0%, rgba(1,98,163,1) 35%, rgba(0,105,172,1) 100%);
+    height: auto;
+    /* min-height: 100%;
+    overflow: hidden; */
+}
+
+.clouds--top {
+    background-color: transparent;
+    background-image: url("https://www.angelsolutions.co.uk/wp-content/themes/angel/images/eif/clouds-header-1920px.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    filter: drop-shadow(0, 8px 10px black);
+    min-height: 270px;
+}
+
+.clouds--bottom {
+    background-color: transparent;
+    background-image: url("https://www.angelsolutions.co.uk/wp-content/themes/angel/images/eif/clouds-footer-1920px.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    filter: drop-shadow(0, 8px 10px black);
+    min-height: 270px;
+
+}
+
+header {
+    background: white;
+    min-height: 20vh;
+}
+
+footer {
+    background: white;
+    min-height: 20vh;
+    margin-top: 0;
+    height: auto;
+    
+}
+
+footer a  {
+    opacity: 1;
+}
+
+footer a:hover {
+    color:#A90100;
+}
+
+.color--grey {
+    color: #43454b
+}
+
+.color--white {
+    color: white;
+}
+
+.color--blue {
+    color: #00639f;
+}
+
+.header--img {
+    max-width: 30%;
+}
+
+svg {
+    max-width: 56%;
+    min-height: 22vw;
+}
+
+.table svg {
+    max-width: 80%;
+}
+
+.constrain--width {
+    max-width: 66%;
+}
+
+@media screen and (max-width: 480px) {
+.header--img {
+    max-width: 60%;
+}
+.table svg {
+    max-width: 98%;
+}
+}
+
+.stars {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 54%;
+    left: 8%;
+}
+
+.stars--2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200%;
+    right: 4%;
+}
+
+.white-star {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 100%;
+    right: 4%;
+}
+
+.blue-star {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 150%;
+    left: 6%;
+    transform: rotate(-5deg);
+}
+
+.white-star--2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 275%;
+    left: 7%;
+    transform: rotate(12deg);
+}
