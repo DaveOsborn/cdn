@@ -125,3 +125,7 @@ svg {
     left: 7%;
     transform: rotate(12deg);
 }
+
+footer.group{
+    display:none;
+}
